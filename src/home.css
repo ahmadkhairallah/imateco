@@ -1,0 +1,9 @@
+.AdImage {
+  display: block;
+  width: 100%;
+  height: fit-content;
+}
+.AdImage img {
+  width: 100%;
+  max-height: 115px;
+}

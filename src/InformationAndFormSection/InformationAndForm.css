@@ -1,0 +1,112 @@
+.InformationAndFormSection {
+  padding: 60px 0;
+}
+.ExplanationText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+  width: 100%;
+}
+.ExplanationTextLink {
+  text-decoration: none;
+  color: #37a11a !important;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.FormGreyDiv {
+  background-color: #fafafa;
+  padding: 40px 23px;
+  margin-bottom: 16px;
+  padding-left: 39px;
+}
+.FormTitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #000;
+  line-height: 42px;
+  min-height: 84px;
+}
+.FormSubTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #000;
+  line-height: 30px;
+  min-height: 60px;
+}
+.FormListTitle {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #000;
+}
+.FormList {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: #000;
+}
+.FormList p {
+  margin-bottom: 0px;
+}
+.GreenButton.info {
+  width: 258px !important;
+  height: 58px !important;
+}
+.GreenBorderButton.info {
+  width: 170px !important;
+  height: 58px !important;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .FormTitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    min-height: 60px;
+  }
+  .FormSubTitle {
+    font-size: 18px;
+    margin-bottom: 6px;
+    line-height: 24px;
+    min-height: 60px;
+  }
+  .FormListTitle {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #000;
+  }
+  .FormList {
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    min-height: 72px;
+  }
+  .CountersGreyCol {
+    margin: 0 auto;
+    margin-bottom: 28px;
+    max-width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .FormTitle,
+  .FormSubTitle,
+  .FormList {
+    min-height: fit-content;
+  }
+}
+@media (max-width: 575px) {
+  .GreenBorderButton.info,
+  .GreenButton.info {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+}

@@ -1,0 +1,49 @@
+.navbarLogo {
+  width: 145.59px;
+  height: 43.32px;
+  object-fit: contain;
+}
+.LinksHeaderDiv {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.transparentButton.languageButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.LeftButtonsInHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.GreenButton.Header {
+  height: 42px !important;
+  width: 133px !important;
+}
+@media (max-width: 992px) {
+  .LinksHeaderDiv {
+    display: block;
+    text-align: right;
+    padding: 10px 0;
+  }
+  .LeftButtonsInHeader {
+    display: block;
+  }
+  .GreenButton {
+    padding: 7px 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbarLogo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+}
